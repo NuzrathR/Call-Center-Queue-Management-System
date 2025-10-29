@@ -10,19 +10,29 @@ Install required extra libraries
 Open the file call_center_sim.py
 
 At the top of the file, change
-        o	SIM_TIME → total simulation time (in minutes)
-        o	SERVICE_TIME → average time to handle one call
-        o	WAIT_THRESHOLD → max time a customer will wait before hanging up
-        o	Change number of agents or arrival rates in the scenario section
+
+        SIM_TIME → total simulation time (in minutes)
+        
+        SERVICE_TIME → average time to handle one call
+        
+        WAIT_THRESHOLD → max time a customer will wait before hanging up
+        
+        Change number of agents or arrival rates in the scenario section
         
 To make the results the same each run, set:
      RANDOM_SEED = 42
      
 The program will display:
-        •	Number of agents
-        •	Average waiting time
-        •	Calls handled
-        •	Calls abandoned
-        •	Agent utilization (%)
-        •	Average queue length
+
+        Number of agents
+        
+        Average waiting time
+        
+        Calls handled
+        
+        Calls abandoned
+        
+        Agent utilization (%)
+        
+        Average queue length
                                             
