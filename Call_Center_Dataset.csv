@@ -1,0 +1,132 @@
+,Simulation Data for Call Center,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Scenario,Description,"Number 
+of Agents","Arrival Rate 
+(calls/min)","Service 
+Time 
+(min per call)","Wait 
+Threshold 
+(min)","Simulation 
+Duration (min)","Expected 
+Behavior",Purpose of Scenario,"Number of 
+Abandoned 
+Calls"
+1 – Base Case,Scenario 1: 3 agents handling calls with 0.3 calls/min arrival rate and 5 min service time.,3,0.3,5,5,120,Moderate wait times and manageable queue.,To set a baseline for comparison.,1
+2 – More Agents,Scenario 2: 5 agents handling calls with 0.3 calls/min arrival rate and 5 min service time.,5,0.3,5,5,120,"Shorter waits, fewer abandoned calls.",To test the effect of adding agents.,0
+3 – Busy System,Scenario 3: 3 agents handling calls with 0.5 calls/min arrival rate and 5 min service time.,3,0.5,5,5,120,"Long waits, more abandoned calls.",To simulate peak hour pressure.,4
+Scenario 4,Scenario 4: 3 agents handling calls with 0.61 calls/min arrival rate and 4 min service time.,3,0.61,4,5,120,System is stable with low waiting time.,Test system under normal load,0
+Scenario 5,Scenario 5: 8 agents handling calls with 0.54 calls/min arrival rate and 3 min service time.,8,0.54,3,5,120,System is stable with low waiting time.,Study impact of short waiting threshold,10
+Scenario 6,Scenario 6: 2 agents handling calls with 0.38 calls/min arrival rate and 4 min service time.,2,0.38,4,5,120,System is stable with low waiting time.,Test call abandonment sensitivity,5
+Scenario 7,Scenario 7: 7 agents handling calls with 0.28 calls/min arrival rate and 4 min service time.,7,0.28,4,5,120,System is stable with low waiting time.,Evaluate performance during busy hours,1
+Scenario 8,Scenario 8: 2 agents handling calls with 0.21 calls/min arrival rate and 6 min service time.,2,0.21,6,5,120,System is stable with low waiting time.,Evaluate performance during busy hours,19
+Scenario 9,Scenario 9: 8 agents handling calls with 0.3 calls/min arrival rate and 8 min service time.,8,0.3,8,5,120,System is stable with low waiting time.,Test system under normal load,10
+Scenario 10,Scenario 10: 10 agents handling calls with 0.59 calls/min arrival rate and 5 min service time.,10,0.59,5,5,120,System is stable with low waiting time.,Study impact of short waiting threshold,16
+Scenario 11,Scenario 11: 3 agents handling calls with 0.72 calls/min arrival rate and 4 min service time.,3,0.72,4,5,120,System is stable with low waiting time.,Analyze effect of reducing agents,20
+Scenario 12,Scenario 12: 4 agents handling calls with 0.65 calls/min arrival rate and 5 min service time.,4,0.65,5,5,120,System is stable with low waiting time.,Check system response under overload,1
+Scenario 13,Scenario 13: 7 agents handling calls with 0.49 calls/min arrival rate and 4 min service time.,7,0.49,4,5,120,System is stable with low waiting time.,Test call abandonment sensitivity,1
+Scenario 14,Scenario 14: 10 agents handling calls with 0.67 calls/min arrival rate and 3 min service time.,10,0.67,3,5,120,System is stable with low waiting time.,Examine agent utilization rates,4
+Scenario 15,Scenario 15: 7 agents handling calls with 0.38 calls/min arrival rate and 5 min service time.,7,0.38,5,5,120,System is stable with low waiting time.,Test system under normal load,3
+Scenario 16,Scenario 16: 3 agents handling calls with 0.25 calls/min arrival rate and 4 min service time.,3,0.25,4,5,120,System is stable with low waiting time.,Check system response under overload,12
+Scenario 17,Scenario 17: 8 agents handling calls with 0.5 calls/min arrival rate and 4 min service time.,8,0.5,4,5,120,System is stable with low waiting time.,Understand queue buildup under stress,18
+Scenario 18,Scenario 18: 8 agents handling calls with 0.47 calls/min arrival rate and 7 min service time.,8,0.47,7,5,120,System is stable with low waiting time.,Analyze effect of reducing agents,14
+Scenario 19,Scenario 19: 3 agents handling calls with 0.48 calls/min arrival rate and 5 min service time.,3,0.48,5,5,120,System is stable with low waiting time.,Assess call handling capacity,2
+Scenario 20,Scenario 20: 2 agents handling calls with 0.38 calls/min arrival rate and 3 min service time.,2,0.38,3,5,120,System is stable with low waiting time.,Test system under normal load,5
+Scenario 21,Scenario 21: 6 agents handling calls with 0.51 calls/min arrival rate and 4 min service time.,6,0.51,4,5,120,System is stable with low waiting time.,Assess call handling capacity,6
+Scenario 22,Scenario 22: 2 agents handling calls with 0.23 calls/min arrival rate and 4 min service time.,2,0.23,4,5,120,System is stable with low waiting time.,Study impact of short waiting threshold,14
+Scenario 23,Scenario 23: 3 agents handling calls with 0.47 calls/min arrival rate and 8 min service time.,3,0.47,8,5,120,"High traffic leading to longer queues 
+and possible call abandonment.",Assess call handling capacity,7
+Scenario 24,Scenario 24: 8 agents handling calls with 0.34 calls/min arrival rate and 3 min service time.,8,0.34,3,5,120,System is stable with low waiting time.,Test system under normal load,13
+Scenario 25,Scenario 25: 3 agents handling calls with 0.7 calls/min arrival rate and 5 min service time.,3,0.7,5,5,120,"Moderate waiting times, 
+some queues may form.",Analyze effect of reducing agents,20
+Scenario 26,Scenario 26: 3 agents handling calls with 0.25 calls/min arrival rate and 8 min service time.,3,0.25,8,5,120,System is stable with low waiting time.,Understand queue buildup under stress,3
+Scenario 27,Scenario 27: 7 agents handling calls with 0.56 calls/min arrival rate and 5 min service time.,7,0.56,5,5,120,System is stable with low waiting time.,Test system under normal load,16
+Scenario 28,Scenario 28: 8 agents handling calls with 0.47 calls/min arrival rate and 4 min service time.,8,0.47,4,5,120,System is stable with low waiting time.,Study impact of short waiting threshold,17
+Scenario 29,Scenario 29: 5 agents handling calls with 0.35 calls/min arrival rate and 5 min service time.,5,0.35,5,5,120,System is stable with low waiting time.,Test system under normal load,4
+Scenario 30,Scenario 30: 2 agents handling calls with 0.48 calls/min arrival rate and 7 min service time.,2,0.48,7,5,120,"High traffic leading to longer queues 
+and possible call abandonment.",Analyze effect of reducing agents,19
+Scenario 31,Scenario 31: 8 agents handling calls with 0.67 calls/min arrival rate and 5 min service time.,8,0.67,5,5,120,System is stable with low waiting time.,Check system response under overload,6
+Scenario 32,Scenario 32: 9 agents handling calls with 0.63 calls/min arrival rate and 6 min service time.,9,0.63,6,5,120,System is stable with low waiting time.,Study impact of short waiting threshold,3
+Scenario 33,Scenario 33: 9 agents handling calls with 0.56 calls/min arrival rate and 6 min service time.,9,0.56,6,5,120,System is stable with low waiting time.,Test call abandonment sensitivity,7
+Scenario 34,Scenario 34: 7 agents handling calls with 0.6 calls/min arrival rate and 6 min service time.,7,0.6,6,5,120,System is stable with low waiting time.,Analyze effect of reducing agents,19
+Scenario 35,Scenario 35: 10 agents handling calls with 0.52 calls/min arrival rate and 3 min service time.,10,0.52,3,5,120,System is stable with low waiting time.,Test call abandonment sensitivity,3
+Scenario 36,Scenario 36: 2 agents handling calls with 0.56 calls/min arrival rate and 6 min service time.,2,0.56,6,5,120,"High traffic leading to longer queues 
+and possible call abandonment.",Assess call handling capacity,18
+Scenario 37,Scenario 37: 7 agents handling calls with 0.32 calls/min arrival rate and 8 min service time.,7,0.32,8,5,120,System is stable with low waiting time.,Analyze effect of reducing agents,9
+Scenario 38,Scenario 38: 7 agents handling calls with 0.26 calls/min arrival rate and 6 min service time.,7,0.26,6,5,120,System is stable with low waiting time.,Analyze effect of reducing agents,5
+Scenario 39,Scenario 39: 3 agents handling calls with 0.72 calls/min arrival rate and 4 min service time.,3,0.72,4,5,120,System is stable with low waiting time.,Evaluate performance during busy hours,10
+Scenario 40,Scenario 40: 3 agents handling calls with 0.76 calls/min arrival rate and 3 min service time.,3,0.76,3,5,120,System is stable with low waiting time.,Check system response under overload,10
+Scenario 41,Scenario 41: 9 agents handling calls with 0.39 calls/min arrival rate and 3 min service time.,9,0.39,3,5,120,System is stable with low waiting time.,Examine agent utilization rates,16
+Scenario 42,Scenario 42: 3 agents handling calls with 0.23 calls/min arrival rate and 3 min service time.,3,0.23,3,5,120,System is stable with low waiting time.,Analyze effect of reducing agents,15
+Scenario 43,Scenario 43: 5 agents handling calls with 0.21 calls/min arrival rate and 4 min service time.,5,0.21,4,5,120,System is stable with low waiting time.,Check system response under overload,11
+Scenario 44,Scenario 44: 2 agents handling calls with 0.37 calls/min arrival rate and 6 min service time.,2,0.37,6,5,120,"Moderate waiting times, 
+some queues may form.",Evaluate performance during busy hours,6
+Scenario 45,Scenario 45: 7 agents handling calls with 0.32 calls/min arrival rate and 6 min service time.,7,0.32,6,5,120,System is stable with low waiting time.,Analyze effect of reducing agents,16
+Scenario 46,Scenario 46: 2 agents handling calls with 0.73 calls/min arrival rate and 7 min service time.,2,0.73,7,5,120,"High traffic leading to longer queues 
+and possible call abandonment.",Test call abandonment sensitivity,12
+Scenario 47,Scenario 47: 10 agents handling calls with 0.52 calls/min arrival rate and 7 min service time.,10,0.52,7,5,120,System is stable with low waiting time.,Examine agent utilization rates,3
+Scenario 48,Scenario 48: 6 agents handling calls with 0.49 calls/min arrival rate and 8 min service time.,6,0.49,8,5,120,System is stable with low waiting time.,Optimize staffing levels,8
+Scenario 49,Scenario 49: 2 agents handling calls with 0.6 calls/min arrival rate and 3 min service time.,2,0.6,3,5,120,System is stable with low waiting time.,Test call abandonment sensitivity,13
+Scenario 50,Scenario 50: 6 agents handling calls with 0.42 calls/min arrival rate and 8 min service time.,6,0.42,8,5,120,System is stable with low waiting time.,Evaluate performance during busy hours,11
+Scenario 51,Scenario 51: 3 agents handling calls with 0.63 calls/min arrival rate and 6 min service time.,3,0.63,6,5,120,"High traffic leading to longer 
+queues and possible call abandonment.",Examine agent utilization rates,6
+Scenario 52,Scenario 52: 9 agents handling calls with 0.61 calls/min arrival rate and 3 min service time.,9,0.61,3,5,120,System is stable with low waiting time.,Optimize staffing levels,1
+Scenario 53,Scenario 53: 9 agents handling calls with 0.51 calls/min arrival rate and 6 min service time.,9,0.51,6,5,120,System is stable with low waiting time.,Assess call handling capacity,8
+Scenario 54,Scenario 54: 4 agents handling calls with 0.75 calls/min arrival rate and 5 min service time.,4,0.75,5,5,120,System is stable with low waiting time.,Assess call handling capacity,8
+Scenario 55,Scenario 55: 6 agents handling calls with 0.51 calls/min arrival rate and 3 min service time.,6,0.51,3,5,120,System is stable with low waiting time.,Understand queue buildup under stress,16
+Scenario 56,Scenario 56: 3 agents handling calls with 0.28 calls/min arrival rate and 6 min service time.,3,0.28,6,5,120,System is stable with low waiting time.,Optimize staffing levels,8
+Scenario 57,Scenario 57: 6 agents handling calls with 0.61 calls/min arrival rate and 6 min service time.,6,0.61,6,5,120,System is stable with low waiting time.,Understand queue buildup under stress,12
+Scenario 58,Scenario 58: 3 agents handling calls with 0.69 calls/min arrival rate and 5 min service time.,3,0.69,5,5,120,"Moderate waiting times, 
+some queues may form.",Optimize staffing levels,10
+Scenario 59,Scenario 59: 2 agents handling calls with 0.42 calls/min arrival rate and 8 min service time.,2,0.42,8,5,120,"High traffic leading to longer queues 
+and possible call abandonment.",Test system under normal load,11
+Scenario 60,Scenario 60: 3 agents handling calls with 0.54 calls/min arrival rate and 5 min service time.,3,0.54,5,3,120,System is stable with low waiting time.,Understand queue buildup under stress,4
+Scenario 61,Scenario 61: 9 agents handling calls with 0.76 calls/min arrival rate and 3 min service time.,9,0.76,3,6,120,System is stable with low waiting time.,Understand queue buildup under stress,15
+Scenario 62,Scenario 62: 2 agents handling calls with 0.2 calls/min arrival rate and 7 min service time.,2,0.2,7,8,120,System is stable with low waiting time.,Analyze effect of reducing agents,3
+Scenario 63,Scenario 63: 5 agents handling calls with 0.6 calls/min arrival rate and 3 min service time.,5,0.6,3,5,120,System is stable with low waiting time.,Assess call handling capacity,18
+Scenario 64,Scenario 64: 6 agents handling calls with 0.25 calls/min arrival rate and 7 min service time.,6,0.25,7,4,120,System is stable with low waiting time.,Test call abandonment sensitivity,0
+Scenario 65,Scenario 65: 6 agents handling calls with 0.21 calls/min arrival rate and 6 min service time.,6,0.21,6,8,120,System is stable with low waiting time.,Study impact of short waiting threshold,14
+Scenario 66,Scenario 66: 10 agents handling calls with 0.51 calls/min arrival rate and 4 min service time.,10,0.51,4,5,120,System is stable with low waiting time.,Evaluate performance during busy hours,17
+Scenario 67,Scenario 67: 7 agents handling calls with 0.31 calls/min arrival rate and 3 min service time.,7,0.31,3,5,120,System is stable with low waiting time.,Assess call handling capacity,11
+Scenario 68,Scenario 68: 7 agents handling calls with 0.76 calls/min arrival rate and 3 min service time.,7,0.76,3,3,120,System is stable with low waiting time.,Examine agent utilization rates,0
+Scenario 69,Scenario 69: 5 agents handling calls with 0.67 calls/min arrival rate and 7 min service time.,5,0.67,7,3,120,System is stable with low waiting time.,Assess call handling capacity,8
+Scenario 70,Scenario 70: 4 agents handling calls with 0.71 calls/min arrival rate and 6 min service time.,4,0.71,6,8,120,"Moderate waiting times, 
+some queues may form.",Evaluate performance during busy hours,7
+Scenario 71,Scenario 71: 8 agents handling calls with 0.34 calls/min arrival rate and 6 min service time.,8,0.34,6,3,120,System is stable with low waiting time.,Examine agent utilization rates,10
+Scenario 72,Scenario 72: 3 agents handling calls with 0.66 calls/min arrival rate and 7 min service time.,3,0.66,7,4,120,"High traffic leading to longer 
+queues and possible call abandonment.",Examine agent utilization rates,19
+Scenario 73,Scenario 73: 3 agents handling calls with 0.53 calls/min arrival rate and 6 min service time.,3,0.53,6,5,120,"Moderate waiting times, 
+some queues may form.",Analyze effect of reducing agents,12
+Scenario 74,Scenario 74: 3 agents handling calls with 0.2 calls/min arrival rate and 6 min service time.,3,0.2,6,6,120,System is stable with low waiting time.,Test system under normal load,11
+Scenario 75,Scenario 75: 7 agents handling calls with 0.63 calls/min arrival rate and 8 min service time.,7,0.63,8,4,120,System is stable with low waiting time.,Evaluate performance during busy hours,3
+Scenario 76,Scenario 76: 7 agents handling calls with 0.53 calls/min arrival rate and 5 min service time.,7,0.53,5,5,120,System is stable with low waiting time.,Assess call handling capacity,1
+Scenario 77,Scenario 77: 8 agents handling calls with 0.2 calls/min arrival rate and 8 min service time.,8,0.2,8,8,120,System is stable with low waiting time.,Analyze effect of reducing agents,15
+Scenario 78,Scenario 78: 10 agents handling calls with 0.73 calls/min arrival rate and 5 min service time.,10,0.73,5,7,120,System is stable with low waiting time.,Test call abandonment sensitivity,9
+Scenario 79,Scenario 79: 4 agents handling calls with 0.6 calls/min arrival rate and 5 min service time.,4,0.6,5,4,120,System is stable with low waiting time.,Assess call handling capacity,16
+Scenario 80,Scenario 80: 7 agents handling calls with 0.36 calls/min arrival rate and 7 min service time.,7,0.36,7,3,120,System is stable with low waiting time.,Study impact of short waiting threshold,10
+Scenario 81,Scenario 81: 6 agents handling calls with 0.46 calls/min arrival rate and 8 min service time.,6,0.46,8,5,120,System is stable with low waiting time.,Test call abandonment sensitivity,17
+Scenario 82,Scenario 82: 7 agents handling calls with 0.4 calls/min arrival rate and 7 min service time.,7,0.4,7,4,120,System is stable with low waiting time.,Check system response under overload,13
+Scenario 83,Scenario 83: 4 agents handling calls with 0.64 calls/min arrival rate and 7 min service time.,4,0.64,7,3,120,"Moderate waiting times, 
+some queues may form.",Examine agent utilization rates,18
+Scenario 84,Scenario 84: 8 agents handling calls with 0.51 calls/min arrival rate and 3 min service time.,8,0.51,3,6,120,System is stable with low waiting time.,Test system under normal load,3
+Scenario 85,Scenario 85: 2 agents handling calls with 0.28 calls/min arrival rate and 6 min service time.,2,0.28,6,4,120,System is stable with low waiting time.,Test call abandonment sensitivity,17
+Scenario 86,Scenario 86: 2 agents handling calls with 0.77 calls/min arrival rate and 8 min service time.,2,0.77,8,4,120,"High traffic leading to longer queues 
+and possible call abandonment.",Examine agent utilization rates,9
+Scenario 87,Scenario 87: 3 agents handling calls with 0.48 calls/min arrival rate and 3 min service time.,3,0.48,3,5,120,System is stable with low waiting time.,Optimize staffing levels,13
+Scenario 88,Scenario 88: 8 agents handling calls with 0.33 calls/min arrival rate and 5 min service time.,8,0.33,5,3,120,System is stable with low waiting time.,Test system under normal load,18
+Scenario 89,Scenario 89: 7 agents handling calls with 0.43 calls/min arrival rate and 8 min service time.,7,0.43,8,4,120,System is stable with low waiting time.,Examine agent utilization rates,14
+Scenario 90,Scenario 90: 7 agents handling calls with 0.69 calls/min arrival rate and 6 min service time.,7,0.69,6,4,120,System is stable with low waiting time.,Analyze effect of reducing agents,6
+Scenario 91,Scenario 91: 2 agents handling calls with 0.77 calls/min arrival rate and 4 min service time.,2,0.77,4,8,120,"High traffic leading to longer queues 
+and possible call abandonment.",Assess call handling capacity,20
+Scenario 92,Scenario 92: 8 agents handling calls with 0.32 calls/min arrival rate and 7 min service time.,8,0.32,7,4,120,System is stable with low waiting time.,Check system response under overload,19
+Scenario 93,Scenario 93: 5 agents handling calls with 0.42 calls/min arrival rate and 8 min service time.,5,0.42,8,8,120,System is stable with low waiting time.,Analyze effect of reducing agents,4
+Scenario 94,Scenario 94: 2 agents handling calls with 0.57 calls/min arrival rate and 4 min service time.,2,0.57,4,5,120,"Moderate waiting times, 
+some queues may form.",Test call abandonment sensitivity,15
+Scenario 95,Scenario 95: 5 agents handling calls with 0.61 calls/min arrival rate and 7 min service time.,5,0.61,7,8,120,System is stable with low waiting time.,Test call abandonment sensitivity,12
+Scenario 96,Scenario 96: 6 agents handling calls with 0.5 calls/min arrival rate and 4 min service time.,6,0.5,4,4,120,System is stable with low waiting time.,Test system under normal load,2
+Scenario 97,Scenario 97: 9 agents handling calls with 0.52 calls/min arrival rate and 7 min service time.,9,0.52,7,8,120,System is stable with low waiting time.,Study impact of short waiting threshold,0
+Scenario 98,Scenario 98: 9 agents handling calls with 0.26 calls/min arrival rate and 3 min service time.,9,0.26,3,3,120,System is stable with low waiting time.,Check system response under overload,5
+Scenario 99,Scenario 99: 2 agents handling calls with 0.22 calls/min arrival rate and 3 min service time.,2,0.22,3,7,120,System is stable with low waiting time.,Test system under normal load,5
+Scenario 100,Scenario 100: 8 agents handling calls with 0.46 calls/min arrival rate and 7 min service time.,8,0.46,7,5,120,System is stable with low waiting time.,Evaluate performance during busy hours,4
+,,,,,,,,,
